@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #87ceeb;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  #game-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #87ceeb;
+    display: none;
+    overflow: hidden;
+  }
+  
+  #basket {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 40px;
+    background: brown;
+    border-radius: 10px;
+  }
+  
+  .object {
+    position: absolute;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    background: red;
+    border-radius: 50%;
+  }
+  
+  .life-heart {
+    background: pink;
+  }
+  
+  #score-board, #lives-board {
+    position: absolute;
+    top: 10px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  #score-board {
+    left: 10px;
+  }
+  
+  #lives-board {
+    right: 10px;
+  }
+  
+  #game-menu, #game-over {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+  }
+  
+  #game-menu {
+    display: flex;
+  }
+  
+  #game-over {
+    display: none;
+  }
+  
